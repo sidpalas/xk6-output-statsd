@@ -3,7 +3,7 @@ module github.com/sidpalas/xk6-output-statsd
 go 1.19
 
 require (
-	github.com/DataDog/datadog-go v0.0.0-20180330214955-e67964b4021a
+	github.com/DataDog/datadog-go/v5 v5.5.0
 	github.com/mstoykov/envconfig v1.4.1-0.20220114105314-765c6d8c76f1
 	github.com/sirupsen/logrus v1.9.0
 	github.com/stretchr/testify v1.8.2
@@ -12,6 +12,7 @@ require (
 )
 
 require (
+	github.com/Microsoft/go-winio v0.5.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.15.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
